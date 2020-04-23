@@ -3,7 +3,7 @@ An Android Application that functions as a mood tracker, but can also
 detect the emotional state of an individual based on their physiological signals.
 
 ### Prerequisites
-What do I need in order to get your project running? For example,
+The following software is required to run the application:
 * Android Studio 3.5.3
 
 ### Build Gradle
@@ -60,7 +60,12 @@ Python
 * [HeartPy - Python Heart Rate Analysis Toolkit](https://github.com/paulvangentcom/heartrate_analysis_python)
 
 
-
+### Licenses
+The following Licenses have been obtained:
+* [MIT License] 
+* [Apache License]
+* [LIBSVM License]
+* [GNU General License]
 
 
 
