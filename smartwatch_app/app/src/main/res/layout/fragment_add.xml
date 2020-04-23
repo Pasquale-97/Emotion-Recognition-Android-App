@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/calendar_background">
+
+
+        <Button
+            android:id="@+id/machine_learning_button"
+            android:layout_width="match_parent"
+            android:layout_height="283dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/angry_radius"
+            android:gravity="center"
+            android:text="MACHINE LEARNING"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/list_of_emotions_button"
+            android:layout_width="match_parent"
+            android:layout_height="351dp"
+            android:layout_below="@+id/machine_learning_button"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="-90dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/sad_radius"
+            android:text="PERSONAL ENTRY"
+            android:textStyle="bold" />
+
+<!--        <Button-->
+<!--            android:id="@+id/delete_button"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/list_of_emotions_button"-->
+<!--            android:layout_marginTop="9dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:text="Clear Database" />-->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/machine_learning_button"
+            android:layout_alignBottom="@+id/machine_learning_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="171dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="93dp"
+            android:background="@android:color/transparent"
+            android:elevation="10dp"
+            android:text="Use Machine Learning to Determine the Emotion" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/machine_learning_button"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="186dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="99dp"
+            android:background="@android:color/transparent"
+            android:elevation="10dp"
+            android:text="Select Emotion from a list of options"
+            android:layout_marginRight="84dp"
+            android:layout_alignParentRight="true" />
+
+</RelativeLayout>

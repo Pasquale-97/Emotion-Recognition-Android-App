@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/calendar_background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="fixed"
+            app:tabGravity="fill"
+            app:tabTextColor="@drawable/bottom_navigation_selector"
+            app:tabSelectedTextColor="@color/text_colour"
+            app:tabIndicatorColor="@color/text_colour"
+            android:background="?attr/colorPrimary" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+<!--    <Button-->
+<!--        android:id="@+id/button1"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#00000000"-->
+<!--        android:textColor="@color/text_colour"-->
+<!--        android:text="TODAY" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:background="#00000000"-->
+<!--        android:text="THIS WEEK"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/text_colour"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:background="#00000000"-->
+<!--        android:text="THIS MONTH"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/text_colour"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button4"-->
+<!--        android:background="#00000000"-->
+<!--        android:text="ALL TIME"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/text_colour"/>-->
+
+</LinearLayout>
+
+</RelativeLayout>

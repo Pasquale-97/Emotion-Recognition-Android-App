@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">smartwatch_app</string>
+
+
+    <string name="emotion">HOW ARE YOU?</string>
+    <string name="excited">EXCITED</string>
+    <string name="happy">HAPPY</string>
+    <string name="calm">CALM</string>
+    <string name="sad">SAD</string>
+    <string name="angry">ANGRY</string>
+    <string name="log">LOG EMOTION</string>
+
+
+
+</resources>

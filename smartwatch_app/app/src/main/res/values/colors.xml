@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="calendar_background">#202020</color>
+    <color name="text_colour">#fcfcfc</color>
+    <color name="text_colour2">#202020</color>
+    <color name="log_colour">#fff</color>
+
+    <color name="black">#1C1C1C</color>
+
+    <color name="excited_colour">#FD9941</color>
+    <color name="happy_colour">#FFFD71</color>
+    <color name="sad_colour">#6BCDFD</color>
+    <color name="calm_colour">#6FB04B</color>
+    <color name="angry_colour">#FD676A</color>
+    <color name="submit_colour">#D3D3D3</color>
+</resources>

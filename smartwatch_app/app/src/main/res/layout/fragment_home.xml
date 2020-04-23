@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/calendar_background">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+</LinearLayout>
+
+    <!--    <TextView-->
+<!--        android:id="@+id/title_string"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="17dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:text="Title"-->
+<!--        android:textColor="@color/text_colour"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold" />-->
+
+
+    <TextView
+        android:id="@+id/excited_string"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pieChart"
+        android:background="@drawable/excited_radius"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/excited"
+        android:textColor="@color/text_colour2"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/happy_string"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/excited_string"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/happy_radius"
+        android:padding="10dp"
+        android:text="@string/happy"
+        android:textColor="@color/text_colour2"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/calm_string"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/happy_string"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/calm_radius"
+        android:padding="10dp"
+        android:text="@string/calm"
+        android:textColor="@color/text_colour2"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sad_string"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calm_string"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/sad_radius"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/sad"
+        android:textColor="@color/text_colour2"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/angry_string"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sad_string"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/angry_radius"
+        android:padding="10dp"
+        android:text="@string/angry"
+        android:textColor="@color/text_colour2"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_marginTop="40dp"
+        android:id="@+id/pieChart"
+
+        android:layout_width="match_parent"
+        android:layout_height="328dp">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+
+</RelativeLayout>

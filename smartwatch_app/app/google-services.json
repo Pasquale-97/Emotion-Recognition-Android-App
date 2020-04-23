@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "411007478277",
+    "firebase_url": "https://smartwatch-emotion.firebaseio.com",
+    "project_id": "smartwatch-emotion",
+    "storage_bucket": "smartwatch-emotion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411007478277:android:f77b7ac4fa7aed3cdfca6c",
+        "android_client_info": {
+          "package_name": "com.example.smartwatch_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411007478277-nnnkf2ouetpetnfq3k8a63vtthofmeeu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartwatch_app",
+            "certificate_hash": "bf5a339a2b179b0832db44f27a8ae715f3c7d625"
+          }
+        },
+        {
+          "client_id": "411007478277-d4vp029rs5sp1570stp9hh5r8c7fs6rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQM-SsKL9yKFzqcLIHt8bsT2qd04oBo3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411007478277-d4vp029rs5sp1570stp9hh5r8c7fs6rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

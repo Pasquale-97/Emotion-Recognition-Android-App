@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/calendar_background">
+
+
+    <TextView
+        android:id="@+id/emotion_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="@string/emotion"
+        android:textColor="@color/text_colour"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/excited_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emotion_text"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/excited_radius"
+        android:text="@string/excited"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/happy_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/happy"
+        android:layout_centerInParent="true"
+        android:background="@drawable/happy_radius"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/excited_button"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:id="@+id/calm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calm"
+        android:layout_centerInParent="true"
+        android:background="@drawable/calm_radius"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/happy_button"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:id="@+id/sad_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sad"
+        android:layout_centerInParent="true"
+        android:background="@drawable/sad_radius"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/calm_button"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:id="@+id/angry_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/angry"
+        android:layout_centerInParent="true"
+        android:background="@drawable/angry_radius"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/sad_button"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:id="@+id/log_emotion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/angry_button"
+        android:background="@drawable/submit_radius"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+
+
+
+</RelativeLayout>
