@@ -62,10 +62,12 @@ Python
 
 ### Licenses
 The following Licenses have been obtained:
-* [MIT License] (https://cseegit.essex.ac.uk/ce301_2019/ce301_iuliano_p/-/blob/master/LICENSE)
-* [Apache License]
-* [LIBSVM License]
-* [GNU General License]
+* CompactCalendarView - [MIT License]
+* MPAndroidChart - [Apache License]
+* LIBSVM - [LIBSVM License]
+* HeartPy - Python Heart Rate Analysis Toolkit - [GNU General License]
+
+All Licenses can be found in the License() folder
 
 
 
