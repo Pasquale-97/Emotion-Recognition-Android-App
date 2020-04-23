@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/calendar_background">
+
+
+    <TextView
+        android:id="@+id/ml_emotion_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:padding="17dp"
+        android:text="Use Machine Learning to Detect your Emotion:"
+        android:textColor="@color/text_colour"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/emotion_recognition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/angry_radius"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:text="DETECT"
+        android:textStyle="bold"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="136dp"
+        app:srcCompat="@drawable/submit_radius" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="78dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="146dp"
+        app:srcCompat="@drawable/heart_rate_image" />
+
+    <TextView
+        android:id="@+id/emotion_prediction"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="75dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/submit_radius"
+        android:text="Heart Rate:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="162dp"
+        android:text="Current Heart Rate"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="164dp"
+        android:layout_toEndOf="@+id/imageView5"
+        android:text="0"
+        android:textColor="@color/text_colour"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/correct_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/submit_radius"
+        android:layout_marginStart="60dp"
+        android:width="120dp"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:text="Yes" />
+
+    <Button
+        android:id="@+id/incorrect_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/submit_radius"
+        android:layout_marginEnd="60dp"
+        android:width="120dp"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:text="No" />
+
+
+</RelativeLayout>

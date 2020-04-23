@@ -61,8 +61,10 @@ public class DatabaseAccess {
     public List<String> getQuotes() {
         List<String> list = new ArrayList<>();
 
+        /** CHANGE DB */
         Cursor cursor = database.rawQuery("SELECT sysBP, diaBP, heartRate  FROM heart_readings_sim ORDER BY ROWID DESC LIMIT 1", null);
         cursor.moveToFirst();
+
         String sys_bp = "";
         String dis_bp = "";
         String heartRate = "";
