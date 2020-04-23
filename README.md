@@ -67,7 +67,7 @@ The following Licenses have been obtained:
 * LIBSVM - [LIBSVM License]
 * HeartPy - Python Heart Rate Analysis Toolkit - [GNU General License]
 
-All Licenses can be found in the License() folder
+All Licenses can be found in the License folder here: https://cseegit.essex.ac.uk/ce301_2019/ce301_iuliano_p/-/blob/master/LICENSE
 
 
 
