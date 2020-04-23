@@ -62,7 +62,7 @@ Python
 
 ### Licenses
 The following Licenses have been obtained:
-* [MIT License] 
+* [MIT License] (https://cseegit.essex.ac.uk/ce301_2019/ce301_iuliano_p/-/blob/master/LICENSE)
 * [Apache License]
 * [LIBSVM License]
 * [GNU General License]
