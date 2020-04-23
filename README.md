@@ -1,62 +1,75 @@
 # Project Title
-A *brief* paragraph explaining your project and what it does should be written here. The idea is to give readers an overview of what it is that you've built.
-
-## Getting Started (Software Based)
-You should write a bit about **how** I can get your project working, It's good to think in terms of the following sections:
+An Android Application that functions as a mood tracker, but can also 
+detect the emotional state of an individual based on their physiological signals.
 
 ### Prerequisites
 What do I need in order to get your project running? For example,
-* Python 3.5 (or later)
-* sqlalchemy
+* Android Studio 3.5.3
 
-### Installing
-A step by step guide on how to build and install your software, for example:
-
-#### Edit the configuration file
-In myconfig.ini, change the following settings to match your requirements:
-
+### Build Gradle
 ```
-database_name=test
-database_user=test
-database_pass=password
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.example.smartwatch_app"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 2
+        versionName "1.0.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+}
 ```
 
 #### Install libraries and run program
 
 ```
-pip install -r requirements.txt
-python3 main.py
+
+
+
 ```
 
 ### Running Tests
-How do I run your tests? Make it as easy as possible to do this!
-
-```
-pip install -r requirements.txt
-./tests.py
-```
-
-### Versioning Statergy
-What versioning statergy are you using for your project, something like [semantic versioning](https://semver.org/) might be a good idea.
-
-## Getting Started (Hardware Based)
-
-### Pre-requisites
-
-* Components
-* PBC
-* etc..
- 
-### Component Testing
-### PCB Board design
-### System Building
-### Hardware version Stratgery
+Run application through Android Studio 3.5.3.
 
 ## Authors
 Provide your names here
-* Fred Bloggs - UI Design
+* Pasquale Iuliano
 
 ## References
-* [Gitlab Markdown Guide](https://docs.gitlab.com/ee/user/markdown.html)
-* [Example 1](https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/v2.0.2)
-* [Example 2](https://github.com/erasmus-without-paper/ewp-specs-architecture/tree/v1.10.0)
+The following APIs and libraries were used for completion of application:
+
+Java:
+* [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
+* [CompactCalendarView](https://github.com/SundeepK/CompactCalendarView)
+* [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)
+
+Python
+* [HeartPy - Python Heart Rate Analysis Toolkit](https://github.com/paulvangentcom/heartrate_analysis_python)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
