@@ -45,7 +45,6 @@ android {
 Run application through Android Studio 3.5.3.
 
 ## Authors
-Provide your names here
 * Pasquale Iuliano
 
 ## References
