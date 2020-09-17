@@ -1,6 +1,6 @@
 # Project Title
-An Android Application that functions as a mood tracker, but can also 
-detect the emotional state of an individual based on their physiological signals.
+An Android Application that functions as a mood tracker, but can also provide a simulation of 
+detecting the emotional state of an individual based on their physiological signals.
 
 ### Prerequisites
 The following software is required to run the application:
